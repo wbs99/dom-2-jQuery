@@ -1,0 +1,5 @@
+window.jQuery = function(selector) {
+    //接受一个选择器，根据这个选择器得到一些元素，返回一个对象，操作这些元素
+    const elements = document.querySelectorAll(selector);
+    return;
+};

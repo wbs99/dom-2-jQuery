@@ -1,0 +1,5 @@
+const api = jQuery('.test')// 不返回元素们，返回 api 对象
+;
+api.addClass('red').addClass('blue').addClass('green'); //链式操作
+obj.fn(p1);
+obj.fn.call(obj, p1);

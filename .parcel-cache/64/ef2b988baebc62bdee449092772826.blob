@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>手写 JQuery</title>
+  </head>
+  <body>
+    <div class="test">你好</div>
+    <script src="82c5c73727b9fa81fc1218eb22d9da55"></script>
+    <script src="67e2e1d839de85b19f58d77aecf7b303"></script>
+  </body>
+</html>

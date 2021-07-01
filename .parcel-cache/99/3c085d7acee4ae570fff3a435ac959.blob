@@ -1,0 +1,11 @@
+window.jQuery = function(selector) {
+    //接受一个选择器，根据这个选择器得到一些 elements，
+    const elements = document.querySelectorAll(selector);
+    //api 可以操作 elements
+    const api = {
+        addClass () {
+            console.log(elements);
+        }
+    };
+    return api;
+};

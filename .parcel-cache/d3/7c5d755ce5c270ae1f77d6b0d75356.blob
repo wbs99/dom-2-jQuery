@@ -1,0 +1,3 @@
+jQuery('.test').addClass('red').addClass('blue').addClass('green'); //链式操作
+ // obj.fn(p1) //this 就是 obj
+ // obj.fn.call(obj,p1)

@@ -1,0 +1,4 @@
+// obj.fn(p1) //this 就是 obj
+// obj.fn.call(obj,p1)
+const x = jQuery('.test').find('.child').addClass('red').addClass('green').addClass('blue').end().addClass('yellow');
+console.log(div);

@@ -1,0 +1,3 @@
+// obj.fn(p1) //this 就是 obj
+// obj.fn.call(obj,p1)
+jQuery('.test').find('.child').addClass('red').addClass('green').addClass('blue'); //链式操作
