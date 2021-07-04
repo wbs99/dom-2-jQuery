@@ -28,11 +28,15 @@ parcel src/index.html
 4. \$('body').prepend(div或\$div) 添加大儿子
 5. \$('#test').after(div或 $div) 添个弟弟
 6. \$ ('#test').before(div或 $div) 添个哥哥
+
+`$('<div>1</div>')` 创建 div<br>
+`$div.appendTo(document.body)` 插入到 body 中
+
 ## 改
-1. $div.text(?)读写文本内容
-2. $div.html(?)读写HTML内容
-3. $div.attr('title',?)读写属性
-4. $div.css({color: 'red"})读写style // $div.style更好
+1. $div.text(?) 读写文本内容
+2. $div.html(?) 读写HTML内容
+3. $div.attr('title',?) 读写属性
+4. $div.css({color: 'red"}) 读写style 
 5. $div.addClass('blue') / removeClass / hasClass
 6. $div.on('click', fn)
 7. $div.off('click', fn)
