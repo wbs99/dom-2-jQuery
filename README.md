@@ -8,9 +8,7 @@ parcel src/index.html
 
 
 
-#### 链式风格
-
-查
+#### 链式风格-查
 
 * jQuery('#xxx')返回值并不是元素，而是一个api对象
 * jQuery('#xxx').find ('.red')查找#xxx里的.red元素 
@@ -22,12 +20,12 @@ parcel src/index.html
 * jQuery('#xxx').prev()获取哥哥
 * jQuery('.red').each(fn)遍历并对每个元素执行fn
 
-#### 链式风格·删
+#### 链式风格-删
 1. $div.remove() 
 
 2. $div.empty()
 
-#### 链式风格·增
+#### 链式风格-增
 1. \$ ('body')获取document.body
 
 2. \$('body' ).append(\$ (\'\<div>1\</div>\'))添加小儿子
@@ -59,7 +57,7 @@ parcel src/index.html
 
 &emsp;&emsp; 这是通过闭包实现的
 
-#### 链式风格·改
+#### 链式风格-改
 
 1. $div.text(?)读写文本内容
 
